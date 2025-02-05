@@ -1,0 +1,122 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1558051815-0f18e64e6280?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding-top: 20px;
+}
+
+.memo, .contentform{
+    background-color: #f7f76d;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    overflow: scroll;
+    word-wrap: break-word;
+    padding: 10px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.memolist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.memosingle{
+    position: relative;
+}
+
+.del{
+    background-color: white;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.edit{
+    background-color: white;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.control{
+    background-color:  rgb(0 0 0 / 17%);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    /* color: white; */
+}
+
+
+
+.contentform{
+    border: 0px;
+    width:80%;
+}
+
+.fileupload{
+    text-align: center;
+}
+
+form#login-form {
+    text-align: center;
+}
+
+form#login-form div{
+    padding-bottom: 10px;
+}
+
+form#create-form {
+    text-align: center;
+}
+
+#avatar {
+    text-align: center;
+    margin: auto;
+    width: -webkit-fill-available;
+    background: #c9c9c929;
+    border-radius: 4px;
+  }
+
+.fileupload{
+    width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+input#avatar, h3, a{
+    color: white !important;
+}
+
+.counter{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+.memo img{
+    width: 100%
+}

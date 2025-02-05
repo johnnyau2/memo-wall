@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+      integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <div class="container-fluid"> -->
+        <div class="row">
+            <div class="counter">View: <span class="counterNo"></span></div>
+            <div class="manage col-sm-4">
+                <div class="control">
+                    <div class="memosingle">
+                        
+                            <form id="create-form">
+                                <div>
+                                <!-- <label></label> -->
+                                    <!-- First Name: -->
+                                    <input
+                                    class="contentform"
+                                    type="text"
+                                    name="content"
+                                    placeholder="Input your content here"
+                                    required
+                                    />
+                                </div> 
+                                <!-- <label for="avatar">Choose a profile picture:</label> -->
+                                <div class="fileupload">
+                                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required/>
+                                </div> 
+                                <div>  
+                                <input type="submit" value="Submit">
+                                </div> 
+                            </form>
+                        <hr>
+                            <h3 style="text-align: center;">Welcome Admin</h3>
+                            <div style="text-align: center;"><button id="logout" >Logout</button></div>
+                            <!-- <form id="login-form">
+                                
+                                <div>
+                                    <input
+                                    type="text"
+                                    name="username"
+                                    placeholder="Username"
+                                    required
+                                    />
+                                </div>
+                                <div>
+                                    <input
+                                    type="text"
+                                    name="password"
+                                    placeholder="password"
+                                    required
+                                    />
+                                </div>
+                                <input type="submit" value="login">
+                                <p><a href="#">Login via Google</a> </p>
+                            </form> -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="memolist col-sm-8">
+                <div class="memosingle">
+                    <div class="del"><i class="bi bi-trash-fill"></i></div>
+                    <div class="edit"><i class="bi bi-pencil-square"></i></div>
+                    <div class="memo">This is the content.</div>
+                </div>
+                <div class="memosingle">
+                    <div class="del"><i class="bi bi-trash-fill"></i></div>
+                    <div class="edit"><i class="bi bi-pencil-square"></i></div>
+                    <div class="memo">This is the content.</div>
+                </div>
+            
+            </div>
+        </div>
+    <!-- </div> -->
+    
+    <script src="./js/admin.js"></script>
+  </body>
+</html>
