@@ -65,7 +65,7 @@ document
     console.log(formObject)
 
     // Submit FormData(), no need to add "Content-Type": "application/json"
-    const res = await fetch('http://localhost:8080/login', {
+    const res = await fetch('/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
